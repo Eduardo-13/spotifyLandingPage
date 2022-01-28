@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(41, 65, 171);
+    background-image: url("https://www-growth.scdn.co/static/home/bursts.svg");
+    background-size: 175%;
+    background-position: 43% 4%;
+    min-height: 846px;
+}
+
+@font-face {
+    font-family: Circular;
+    src: url(./fonts/Circular/CircularStd-Bold.otf);
+}
+
+@font-face {
+    font-family: CircularLight;
+    src: url(./fonts/Circular/CircularStd-Light.otf);
+}
+
+.mainHeader {
+    width: 100%;
+    height: 80px;
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Circular, Arial;
+}
+
+
+.navHeader {
+    display: flex;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.navItem {
+    display: block;
+    color: #fff;
+    padding: 28px 16px;
+}
+
+.navItem:hover {
+    color: #1DB954;
+}
+
+.navItemSpecial {
+    font-weight: 100;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto 17px;
+    font-size: 22px;
+}
+
+.headerSpotifyLogo {
+    width: 140px;
+    height: 42px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionH1 {
+    font-size: 156px;
+    font-family: Circular;
+    letter-spacing: -10px;
+    font-weight: 900;
+    display: block;
+    margin-top: 265px;
+    line-height: 162px;
+    max-width: 900px;
+    color: #1ed760;
+}
+
+.sectionH2 {
+    font-size: 20px;
+    font-family: Circular;
+    letter-spacing: -1px;
+    margin-top: 40px;
+    color: #1ed760;
+}
+
+.sectionButton {
+    padding: 17px 35px;
+    border-radius: 500px;
+    border: none;
+    margin-top: 50px;
+    text-transform: uppercase;
+    background: #1ed760;
+    font-weight: 800;
+    font-family: Circular;
+    letter-spacing: 0.5px;
+    transition: all .01s ease-in-out;
+    color: rgb(41, 65, 171);
+}
+
+.sectionButton:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.secondSection {
+    margin-top: 270px;
+    color: white;
+    width: 100%;
+    background: #000;
+    padding-top: 90px;
+    display: flex;
+    padding-bottom: 70px;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Circular;
+    gap: 100px;
+
+}
+
+.spotifyLogoSection2 {
+    width: 137px;
+    height: 42px;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.sectionItemList {
+    padding-top: 17px;
+    padding-bottom: 7px;
+    color: #fff;
+    font-size: 15px;
+    font-family: CircularLight;
+}
+
+.sectionItemList:hover {
+    color: #1DB954;
+}
+
+.firstItem {
+    color: #919496;
+    font-size: 17px;
+    padding-bottom: 14px;
+}
+
+.socialImg {
+    padding: 2px; 
+    border-radius: 20%; 
+    background-color: #353536; 
+    width: 40px;
+    display: inline-block;
+    margin-left: 15px;
+    transition: all .04s ease-in-out;
+}
+
+.socialImg:hover {
+    background: #1DB954;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.footerList {
+    color: #fff;
+    font-family: CircularLight;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 25px;
+    color: #919496;
+    padding-bottom: 55px;
+}
+
+.footerList a {
+    color: #919496;
+}
+
+.footerList li:hover {
+    color: #1DB954;
+}
+
+p {
+    color: #919496;
+    font-size: 12px;
+    font-family: CircularLight;
+}
+
+
+.footer {
+    width: 100%;
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 80px;
+    padding-top: 40px;
+}
